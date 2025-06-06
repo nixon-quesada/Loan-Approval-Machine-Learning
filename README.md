@@ -5,7 +5,6 @@ Loan-Approval-Machine-Learning-Project-Learning-Classification-using-XGBoost-and
 │
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 │
 ├── data/
 │   ├── train.csv

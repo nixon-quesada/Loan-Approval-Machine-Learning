@@ -1,7 +1,7 @@
 ### 📁 Project Structure
 
 ```text
-Loan-Approval-Machine-Learning/
+Loan-Approval-Machine-Learning-Project-Learning-Classification-using-XGBoost-and-SHAP/
 │
 ├── README.md
 ├── requirements.txt
@@ -13,7 +13,7 @@ Loan-Approval-Machine-Learning/
 │   └── raw.csv
 │
 ├── notebooks/
-│   ├── Loan-Approval-Machine-Learning.ipynb
+│   ├── Loan Approval Machine Learning Project Learning Classification-using-XGBoost and SHAP.ipynb
 │
 ├── app/
 │   ├── app.py

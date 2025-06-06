@@ -1,3 +1,24 @@
+### 📁 Project Structure
+
+```text
+Loan-Approval-Machine-Learning/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+│   └── raw.csv
+│
+├── notebooks/
+│   ├── Loan-Approval-Machine-Learning.ipynb
+│
+├── app/
+│   ├── app.py
+│   └── model.pkl
+```
 ### Project Background
 Access to financial services is a key driver of economic growth and personal development. However, traditional loan approval processes often involve lengthy paperwork, manual verification, and subjective decision-making, which can delay or even prevent credit access for many individuals. As demand for faster and fairer lending grows, financial institutions are looking for smarter, data-driven solutions.
 This project introduces a Loan Approval System powered by machine learning to streamline and automate the loan evaluation process. By analyzing applicant data—such as income, credit history, employment status, and existing debts—the system predicts the likelihood of loan repayment and assists in making informed approval decisions. The goal is to reduce processing time, minimize human bias, and improve overall accuracy in credit risk assessment.
@@ -90,7 +111,7 @@ The dataset structure as seen below consists of 12 features, 1 id feature and 1 
   
 3. Correlation Analysis:
 - Generated heatmap using custom palette.
-- No extreme multicollinearity found, but some features like credit_score and asset_value groups were positively associated with approvals.
+- Extreme multicollinearity found among features related to a person's asset, credit_score is the only feature associated with loan approvals.
 
 ![image](https://github.com/user-attachments/assets/9fb5ca64-ff0d-4243-b67a-a4f6ea0a78da)
 ![graph 1](https://github.com/user-attachments/assets/45a2439e-fe87-4194-a186-b7d6a7cca904)
